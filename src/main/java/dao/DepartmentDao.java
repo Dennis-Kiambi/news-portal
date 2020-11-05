@@ -18,6 +18,7 @@ public interface DepartmentDao {
 
     Department findById(int id);
 
+
     void deleteById(int id);
     void clearAll();
 }
